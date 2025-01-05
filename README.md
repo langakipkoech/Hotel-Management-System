@@ -34,4 +34,21 @@ The **Hotel Management System** allows users to:
 5. **Sales Report**: View inventory and sales details.
 6. **Exit**: Exit the program.
 
+
+---
+
+### 2. Library Management System
+
+#### Description
+The **Library Management System** models a collection of library items, specifically books and e-books. It uses polymorphism and inheritance to manage different types of items efficiently.
+
+#### Features
+- Abstract base class `LibraryItem` for all library items.
+- Derived classes for specific item types:
+  - `Book`: Represents a generic book.
+  - `EBook`: Represents an electronic book with additional attributes (file format and size).
+  - `PrintedBook`: Represents a printed book with additional attributes (number of pages and shelf location).
+- Dynamic polymorphism to interact with all library items uniformly.
+
 #### Sample Run
+
